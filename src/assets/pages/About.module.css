@@ -1,0 +1,38 @@
+.aboutHeading {
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.aboutHeading:hover {
+  text-shadow: 2px 2px 8px white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.aboutMeHeading {
+  color: #ffb400;
+  font-family: "Hedvig Letters Serif", serif;
+  font-weight: bolder;
+}
+.nameOfAdmin {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Hedvig Letters Serif", serif;
+}
+.paraTag {
+  width: 50%;
+  margin: auto;
+}
+.briefSummmmaryAboutMe {
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+  text-align: justify;
+}
+.email {
+  color: #ffb400;
+  text-align: center;
+  font-family: "Hedvig Letters Serif", serif;
+}

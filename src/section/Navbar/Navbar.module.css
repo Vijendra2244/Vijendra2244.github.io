@@ -1,0 +1,107 @@
+.mainOfNavbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  margin-top: 0.5rem;
+  background-color: rgb(17, 17, 17);
+  font-family: "Hedvig Letters Serif", serif;
+}
+.signImage {
+  max-width: 15%;
+}
+
+.listOfSection {
+  width: 60%;
+  padding: 0.5rem;
+  display: flex;
+  color: white;
+  margin-left: 40%;
+  justify-content: space-between;
+}
+.hamburgerMenuICon {
+  display: none;
+  color: white;
+  margin-left: 50%;
+  margin-top: 0.5rem;
+}
+
+.listOfSectionAfterClick {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem 0;
+  align-items: center;
+  color: white;
+  height: 100vw;
+  background-color: rgb(17, 17, 17);
+  z-index: 999;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.listSectionNavbar {
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.listSectionNavbar:hover {
+  color: #ffb400;
+  border-bottom: 2px solid #ffb400;
+  transition: 0.5s;
+}
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .listOfSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .signImage {
+    max-width: 30%;
+  }
+}
+
+.adminName {
+  color: #ffb400;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Ephesis", cursive;
+}
+.adminName:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .listOfSection {
+    width: 50%;
+    margin: auto;
+    gap: 1rem;
+    margin-left:6rem;
+  }
+  .signImage {
+    max-width: 40%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .hamburgerMenuICon {
+    display: block;
+    z-index: 111;
+    color: white;
+  }
+  .crossIcon {
+    color: white;
+    z-index: 999;
+    margin-top: 0.5rem;
+  }
+  .listOfSection {
+    display: none;
+  }
+}

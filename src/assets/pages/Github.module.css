@@ -1,0 +1,51 @@
+.gitContainer {
+  display: grid;
+  margin: 2rem auto;
+  grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+  font-family: "Hedvig Letters Serif", serif;
+}
+.gitCalender {
+  max-width: 50%;
+  margin: auto;
+  color: #fbb400;
+  font-family: "Hedvig Letters Serif", serif;
+}
+.stateContainer {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.stateCard {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 6px;
+  width: 70%;
+  margin: auto;
+}
+
+.githubHeading {
+  color: #fbb400;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.githubHeading:hover {
+  text-shadow: 2px 2px 8px white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .gitContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .gitCalender {
+    max-width: 80%;
+    margin: auto;
+  }
+}

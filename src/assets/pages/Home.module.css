@@ -1,0 +1,145 @@
+.containerOfHomeSection {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  font-family: "Hedvig Letters Serif", serif;
+  gap: 10rem;
+}
+
+.imageContainer {
+  width: 30%;
+  margin-top: 5rem;
+}
+.image {
+  width: 130%;
+  border-radius: 1rem;
+}
+
+.detailsContainer {
+  width: 40%;
+  margin-top: 8rem;
+  display: flex;
+  gap: 2.5rem;
+  flex-direction: column;
+}
+
+.headingName {
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+}
+.nameOfAdmin {
+  color: #ffb400;
+}
+.detailsOfAdmin {
+  color: white;
+  text-align: justify;
+}
+.resumeButton {
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: #ffb400;
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+.resumeAnchor{
+  text-decoration: none;
+  color:black;
+}
+.resumeButton:hover {
+  cursor: pointer;
+  transition: all 0.2s linear 0s;
+  color: black;
+  background-color: white;
+}
+
+.accountOfSocialMedia {
+  display: flex;
+  width: 30%;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+.socialMediaIcon {
+  color: #ffb400;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  background-color: rgb(17, 17, 17);
+}
+.socialMediaIcon:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 1280px) {
+  .containerOfHomeSection {
+    display: flex;
+  }
+  .detailsContainer {
+    width: 70%;
+    margin-top: 7rem;
+    gap: 0;
+  }
+  .imageContainer {
+    width: 70%;
+  }
+  .headingName {
+    font-size: 1.9rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .containerOfHomeSection {
+    display: flex;
+  }
+  .detailsContainer {
+    width: 80%;
+    margin-top: 6rem;
+    gap: 0;
+  }
+  .imageContainer {
+    width: 70%;
+  }
+  .headingName {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 880px) {
+  .containerOfHomeSection {
+    display: flex;
+  }
+  .detailsContainer {
+    width: 70%;
+    margin-top: 7rem;
+    gap: 0;
+  }
+  .imageContainer {
+    width: 60%;
+  }
+  .headingName {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .containerOfHomeSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 1rem auto;
+  }
+  .detailsContainer {
+    width: 70%;
+    margin: auto;
+  }
+  .resumeButton {
+    width: 50%;
+  }
+}
