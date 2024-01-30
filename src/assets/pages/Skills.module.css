@@ -1,5 +1,10 @@
+#skills_section{
+  width: 80%;
+  margin: auto;
+}
+
 .skills {
-  text-align: center;
+text-align: center;
   color: #ffb400;
   font-family: "Hedvig Letters Serif", serif;
   font-size: 3rem;
@@ -11,10 +16,11 @@
 }
 .skillContainer {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 50%;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+  width: 70%;
   margin: auto;
-  gap: 3rem;
+  row-gap: 2rem;
 }
 
 .progressbar {
@@ -113,11 +119,25 @@
   gap: 1rem;
   justify-content: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:1200px) {
   .skillContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width:900px) {
+  .skillContainer {
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+}
+@media screen and (max-width: 768px) {
+  .skillContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 @media screen and (max-width: 640px) {
   .skillContainer {
@@ -125,10 +145,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* @media screen and (max-width: 440px) {
+  .skillContainer {
+    width: 75%;
+    margin:auto;
+  }
+}
+
 @media screen and (max-width: 390px) {
    .skillContainer{
      width: 75%;
      margin: auto;
    }
    
-}
+} */

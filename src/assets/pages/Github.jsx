@@ -3,7 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 import styles from "./Github.module.css";
 function Github() {
   return (
-    <>
+    <div className={styles.gitContainerMain}>
       <h1 className={styles.githubHeading}>Github State</h1>
       <div className={styles.gitCalender}>
         <GitHubCalendar
@@ -28,7 +28,7 @@ function Github() {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

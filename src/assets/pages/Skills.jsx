@@ -10,6 +10,9 @@ function Skills() {
         <div className={styles.progressbarTwo}>JS 85%</div>
         <div className={styles.progressbarThree}>React 80%</div>
         <div className={styles.progressbarThree}>Tailwind 80%</div>
+        <div className={styles.progressbarThree}>Express 80%</div>
+        <div className={styles.progressbarThree}>Node 80%</div>
+        <div className={styles.progressbarThree}>MongoDB 80%</div>
       </div>
       <div className={styles.toolsContainer}>
         <h1 className={styles.skills}>Tools</h1>

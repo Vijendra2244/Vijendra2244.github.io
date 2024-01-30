@@ -13,10 +13,10 @@ function Home() {
         </div>
         <div className={styles.detailsContainer}>
           <h1 className={styles.headingName}>
-            <span className={styles.nameOfAdmin}>I'M VIJENDRA CHOUHAN.</span>{" "}
-            <br /> FRONT-END DEVELOPER
+            <span className={styles.nameOfAdmin}>I'M VIJENDRA CHOUHAN.</span>
+            <br/>
+          FRONT-END DEVELOPER
           </h1>
-
           <button className={styles.resumeButton}>
             <a
               className={styles.resumeAnchor}

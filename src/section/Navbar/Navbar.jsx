@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import { Link } from "react-router-dom";
-import AllRoute from "../../assets/AllRoutes/AllRoute";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import { FaHome, FaUser } from "react-icons/fa";
@@ -10,7 +8,7 @@ import { GiSkills } from "react-icons/gi";
 import { GoProjectSymlink } from "react-icons/go";
 import resume from "../../assets/Vijendra-Chouhan-Resume.pdf";
 import { RiBookReadLine } from "react-icons/ri";
-import About from "../../assets/pages/About";
+
 function Navbar() {
   const [menu, setMenu] = useState(false);
 
@@ -30,7 +28,7 @@ function Navbar() {
           className={
             menu ? styles.listOfSectionAfterClick : styles.listOfSection
           }
-        >
+         >
           <a className={styles.listSectionNavbar} href="#home_section">
             Home <FaHome />
           </a>

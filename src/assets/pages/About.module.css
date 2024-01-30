@@ -1,3 +1,8 @@
+#about_section{
+  width: 80%;
+  margin: auto;
+}
+
 .aboutHeading {
   color: white;
   font-family: "Hedvig Letters Serif", serif;
