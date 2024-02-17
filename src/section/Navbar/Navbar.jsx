@@ -15,34 +15,35 @@ function Navbar() {
   const handleMenuBtn = () => {
     setMenu(true);
   };
+
   const handleCross = () => {
     setMenu(false);
   };
+
+  const handleLinkClick = () => {
+    setMenu(false); 
+  };
+
   return (
     <>
       <div className={styles.mainOfNavbar}>
         <div>
           <span className={styles.adminName}>Vijendra</span>
         </div>
-        <div
-          className={
-            menu ? styles.listOfSectionAfterClick : styles.listOfSection
-          }
-         >
-          <a className={styles.listSectionNavbar} href="#home_section">
+        <div className={menu ? styles.listOfSectionAfterClick : styles.listOfSection}>
+          <a className={styles.listSectionNavbar} href="#home_section" onClick={handleLinkClick}>
             Home <FaHome />
           </a>
-          <a className={styles.listSectionNavbar} href="#about_section">
+          <a className={styles.listSectionNavbar} href="#about_section" onClick={handleLinkClick}>
             About <FaUser />
           </a>
-
-          <a className={styles.listSectionNavbar} href="#skills_section">
+          <a className={styles.listSectionNavbar} href="#skills_section" onClick={handleLinkClick}>
             Skills <GiSkills />
           </a>
-          <a className={styles.listSectionNavbar} href="#project_section">
+          <a className={styles.listSectionNavbar} href="#project_section" onClick={handleLinkClick}>
             Project <GoProjectSymlink />
           </a>
-          <a className={styles.listSectionNavbar} href="#contact_section">
+          <a className={styles.listSectionNavbar} href="#contact_section" onClick={handleLinkClick}>
             Contact <IoMdContact />
           </a>
           <a
@@ -50,8 +51,9 @@ function Navbar() {
             href={resume}
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/10vMNNYP0-y2tlyPDV9QTI2MjM29iCcj6/view?usp=sharing"
+                "https://drive.google.com/file/d/1xdTafm9KZtA7bFinzz3Avy7OHXf8Fdok/view?usp=sharingg"
               );
+              handleLinkClick(); // Close menu when resume link is clicked
             }}
             target="_blank"
             download="Vijendra-Chouhan-Resume"

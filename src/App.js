@@ -5,6 +5,7 @@ import Skills from "./assets/pages/Skills";
 import Project from "./assets/pages/Project";
 import Navbar from "./section/Navbar/Navbar";
 import Github from "./assets/pages/Github";
+import AnimatedCursorComponent from "./components/card/AnimatedCursorComponent";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Project />
       <Github />
       <Contact />
+      <AnimatedCursorComponent/>
     </>
   );
 }

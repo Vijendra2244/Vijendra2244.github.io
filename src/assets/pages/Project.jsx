@@ -4,6 +4,7 @@ import styles from "./Project.module.css";
 import ProjectImage from "../ProjectOne.png";
 import MovieWebsite from "../MovieWebsite.png";
 import foodWebsite from "../foodWebsite.png";
+import snapdeal from "../snapdeal.png"
 
 function Project() {
   return (
@@ -18,6 +19,16 @@ function Project() {
         TechStack={"HTML | CSS | Javascript | React"}
         github={"https://github.com/Vijendra2244/Shine"}
         netlify={"https://shineclone001100.netlify.app/"}
+      />
+      <Card
+         image={snapdeal}
+         FirstDesc={"For login and signup useing backend like node,express,mongodb"}
+         SecondDesc={"All data come from backend"}
+         projectName={"Snapdeal.com"}
+         ThirdDesc={"Implementing a add to cart functionality and also integrate a payment gateway with the help of razorpay"}
+         TechStack={"HTML | CSS | Javascript | React | node.js | express.js | mongoDB"}
+         github={"https://github.com/Vijendra2244/SnapDeal_backend"}
+         netlify={"https://snapdeal0101.netlify.app/"}
       />
       <Card
         image={MovieWebsite}
