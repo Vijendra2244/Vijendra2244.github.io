@@ -15,7 +15,7 @@ function Home() {
           <h1 className={styles.headingName}>
             <span className={styles.nameOfAdmin}>I'M VIJENDRA CHOUHAN.</span>
             <br />
-            FRONT-END DEVELOPER
+            FULL-STACK DEVELOPER
           </h1>
           <button className={styles.resumeButton}>
             <a
