@@ -123,6 +123,7 @@ text-align: center;
   .skillContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    place-items: center;
   }
 }
 @media screen and (max-width:900px) {
@@ -130,12 +131,14 @@ text-align: center;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    place-items: center;
   }
 }
 @media screen and (max-width: 768px) {
   .skillContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    place-items: center;
   }
 
 }
@@ -143,6 +146,15 @@ text-align: center;
   .skillContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+}
+@media screen and (max-width: 310px) {
+  .skillContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+    place-items: center;
   }
 }
 

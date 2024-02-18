@@ -6,18 +6,18 @@
   display: grid;
   margin: 2rem auto;
   grid-template-columns: repeat(2, 1fr);
-  width: 50%;
+  width: 80%;
   font-family: "Hedvig Letters Serif", serif;
 }
 .gitCalender {
-  max-width: 50%;
+  max-width: 80%;
   margin: auto;
   color: #fbb400;
   font-family: "Hedvig Letters Serif", serif;
 }
 .stateContainer {
   display: flex;
-  width: 50%;
+  width: 70%;
   margin: auto;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +42,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .gitContainer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -53,3 +53,58 @@
     margin: auto;
   }
 }
+@media screen and (max-width: 768px) {
+  .gitContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .gitCalender {
+    max-width: 80%;
+    margin: auto;
+  }
+  .stateCard {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  .gitContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .gitCalender {
+    max-width: 80%;
+    margin: auto;
+  }
+  .stateCard {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gitContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    width: 100%;
+  }
+  .gitCalender {
+    max-width: 100%;
+    margin: auto;
+  }
+  .stateCard {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 6px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+

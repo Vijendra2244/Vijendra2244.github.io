@@ -1,21 +1,21 @@
 import React from "react";
 import styles from "./Home.module.css";
-import myImage from "../../assets/VijendraChouhanONe.png";
 import myResume from "../../assets/Vijendra-Chouhan-Resume.pdf";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import AvatarImg from "../../components/card/AvatarImg";
 function Home() {
   return (
     <>
       <div id="home_section" className={styles.containerOfHomeSection}>
         <div className={styles.imageContainer}>
-          <img className={styles.image} src={myImage} />
+          <AvatarImg />
         </div>
         <div className={styles.detailsContainer}>
           <h1 className={styles.headingName}>
             <span className={styles.nameOfAdmin}>I'M VIJENDRA CHOUHAN.</span>
-            <br/>
-          FRONT-END DEVELOPER
+            <br />
+            FRONT-END DEVELOPER
           </h1>
           <button className={styles.resumeButton}>
             <a

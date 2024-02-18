@@ -63,6 +63,7 @@
   cursor: pointer;
   font-weight: 600;
   font-family: "Ephesis", cursive;
+  margin-left: 0.7rem;
 }
 .adminName:hover {
   color: white;
@@ -88,12 +89,23 @@
     gap: 1.5rem;
   }
 }
+@media screen and  (max-width: 800px) {
+  .listOfSection {
+    width: 50%;
+    margin: auto;
+    gap: 1rem;
+    margin-left:10rem;
+  }
+  .signImage {
+    max-width: 40%;
+  }
+}
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .listOfSection {
     width: 50%;
     margin: auto;
     gap: 1rem;
-    margin-left:6rem;
+    margin-left:7.8rem;
   }
   .signImage {
     max-width: 40%;

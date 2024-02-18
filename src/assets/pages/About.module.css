@@ -41,3 +41,14 @@
   text-align: center;
   font-family: "Hedvig Letters Serif", serif;
 }
+
+@media screen and (max-width:420px) {
+  .paraTag{
+    width: 80%;
+    margin:auto;
+  }
+  
+  .aboutHeading{
+    font-size:2.5rem;
+  }
+}
