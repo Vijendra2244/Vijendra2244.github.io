@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Project.module.css";
 import {
   Box,
@@ -13,14 +13,26 @@ import movieWebsite from "../MovieWebsite.png";
 import foodWebsite from "../foodWebsite.png";
 import shine from "../ProjectOne.png";
 import snapdeal from "../snapdeal.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Project() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-out",
+    });
+    return () => {
+      AOS.refresh();
+    };
+  }, []);
   return (
     <>
       <h1 className={styles.headingOfProject}>Project</h1>
       <div className={styles.ProjectContainer} id="project_section">
-        <Center py={12}>
+        <Center data-aos="slide-up" py={12}>
           <Box
+            data-aos="zoom-in"
             role={"group"}
             p={6}
             maxW={"530px"}
@@ -117,8 +129,9 @@ function Project() {
             </Stack>
           </Box>
         </Center>
-        <Center py={12}>
+        <Center data-aos="slide-up" py={12}>
           <Box
+            data-aos="zoom-in"
             role={"group"}
             p={6}
             maxW={"530px"}
@@ -214,8 +227,9 @@ function Project() {
             </Stack>
           </Box>
         </Center>
-        <Center py={12}>
+        <Center data-aos="slide-up" py={12}>
           <Box
+            data-aos="zoom-in"
             role={"group"}
             p={6}
             maxW={"530px"}
@@ -310,8 +324,9 @@ function Project() {
             </Stack>
           </Box>
         </Center>
-        <Center py={12}>
+        <Center data-aos="slide-up" py={12}>
           <Box
+            data-aos="zoom-in"
             role={"group"}
             p={6}
             maxW={"530px"}
