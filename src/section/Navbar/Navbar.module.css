@@ -8,6 +8,7 @@
   margin-top: 0.5rem;
   background-color: rgb(17, 17, 17);
   font-family: "Hedvig Letters Serif", serif;
+  z-index: 11111111;
 }
 .signImage {
   max-width: 15%;
@@ -41,7 +42,7 @@
   color: white;
   height: 100vh;
   background-color: rgb(17, 17, 17);
-  z-index: 999;
+  z-index: 111111111;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .listSectionNavbar {
@@ -70,8 +71,7 @@
   border-bottom: 2px solid white;
 }
 
-
-@media screen and  (max-width: 1025px) {
+@media screen and (max-width: 1025px) {
   .listOfSection {
     width: 100%;
     display: flex;
@@ -82,19 +82,19 @@
   }
 }
 
- @media screen and (max-width:1024px) {
-  .listOfSection{
+@media screen and (max-width: 1024px) {
+  .listOfSection {
     width: 70%;
     display: flex;
     gap: 1.5rem;
   }
 }
-@media screen and  (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .listOfSection {
     width: 50%;
     margin: auto;
     gap: 1rem;
-    margin-left:10rem;
+    margin-left: 10rem;
   }
   .signImage {
     max-width: 40%;
@@ -105,7 +105,7 @@
     width: 50%;
     margin: auto;
     gap: 1rem;
-    margin-left:7.8rem;
+    margin-left: 7.8rem;
   }
   .signImage {
     max-width: 40%;
@@ -114,13 +114,13 @@
 @media screen and (max-width: 640px) {
   .hamburgerMenuICon {
     display: block;
-    z-index: 111;
+    z-index: 111111111;
     margin-right: 1rem;
     color: white;
   }
   .crossIcon {
     color: white;
-    z-index: 999;
+    z-index: 111111111;
     margin-right: 1rem;
     margin-top: 0.5rem;
   }
