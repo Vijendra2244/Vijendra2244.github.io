@@ -19,7 +19,7 @@ function Project() {
     <>
       <h1 className={styles.headingOfProject}>Project</h1>
       <div className={styles.ProjectContainer} id="project_section">
-        <Center zIndex="-111" py={12}>
+        <Center py={12}>
           <Box
             role={"group"}
             p={6}
@@ -117,7 +117,7 @@ function Project() {
             </Stack>
           </Box>
         </Center>
-        <Center zIndex="-111" py={12}>
+        <Center py={12}>
           <Box
             role={"group"}
             p={6}
@@ -214,7 +214,7 @@ function Project() {
             </Stack>
           </Box>
         </Center>
-        <Center zIndex="-111" py={12}>
+        <Center py={12}>
           <Box
             role={"group"}
             p={6}
@@ -310,7 +310,7 @@ function Project() {
             </Stack>
           </Box>
         </Center>
-        <Center zIndex="-111" py={12}>
+        <Center py={12}>
           <Box
             role={"group"}
             p={6}
