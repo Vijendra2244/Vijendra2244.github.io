@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9b4da98.css",
-    "main.js": "/static/js/main.c11fee2a.js",
+    "main.css": "/static/css/main.96651aa2.css",
+    "main.js": "/static/js/main.d8e2c169.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/MovieWebsite.png": "/static/media/MovieWebsite.7c6f5db60083378faefa.png",
     "static/media/Vijendra-Chouhan-Resume.pdf": "/static/media/Vijendra-Chouhan-Resume.d0f87d8930a1f4c6f674.pdf",
@@ -10,12 +10,12 @@
     "static/media/snapdeal.png": "/static/media/snapdeal.a41c2b4f26046f99073b.png",
     "static/media/foodWebsite.png": "/static/media/foodWebsite.40694fdf6f9c6d92d2b7.png",
     "index.html": "/index.html",
-    "main.e9b4da98.css.map": "/static/css/main.e9b4da98.css.map",
-    "main.c11fee2a.js.map": "/static/js/main.c11fee2a.js.map",
+    "main.96651aa2.css.map": "/static/css/main.96651aa2.css.map",
+    "main.d8e2c169.js.map": "/static/js/main.d8e2c169.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9b4da98.css",
-    "static/js/main.c11fee2a.js"
+    "static/css/main.96651aa2.css",
+    "static/js/main.d8e2c169.js"
   ]
 }
