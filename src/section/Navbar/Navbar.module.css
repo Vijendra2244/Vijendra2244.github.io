@@ -8,7 +8,7 @@
   margin-top: 0.5rem;
   background-color: rgb(17, 17, 17);
   font-family: "Hedvig Letters Serif", serif;
-  z-index: 11111111;
+  z-index: 1;
 }
 .signImage {
   max-width: 15%;
@@ -105,7 +105,7 @@
 }
 @media screen and (max-width: 800px) {
   .listOfSection {
-    width: 45%;
+    width: 50%;
     margin: auto;
     gap: 0.8rem;
   }

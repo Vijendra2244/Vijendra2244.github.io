@@ -11,6 +11,7 @@ function AnimatedCursorComponent() {
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={4}
+      style={{zIndex:"99999999999999999"}}
     />
   );
 }
