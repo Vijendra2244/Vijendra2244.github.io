@@ -19,7 +19,6 @@
   padding: 0.5rem;
   display: flex;
   color: white;
-  /* margin-left: 40%; */
   justify-content: space-between;
 }
 .hamburgerMenuICon {
@@ -28,11 +27,25 @@
   margin-left: 50%;
   margin-top: 0.5rem;
 }
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 9999; 
+}
+
+.hiddenBackdrop {
+  display: none;
+}
+
 
 .listOfSectionAfterClick {
   position: absolute;
   top: 0;
-  left: 50%;
+  right: 0;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -45,6 +58,7 @@
   z-index: 111111111;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 .listSectionNavbar {
   text-decoration: none;
   color: white;
@@ -84,33 +98,34 @@
 
 @media screen and (max-width: 1024px) {
   .listOfSection {
-    width: 70%;
+    width: 75%;
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
   }
 }
 @media screen and (max-width: 800px) {
   .listOfSection {
-    width: 50%;
+    width: 45%;
     margin: auto;
-    gap: 1rem;
-    margin-left: 10rem;
+    gap: 0.8rem;
   }
   .signImage {
     max-width: 40%;
   }
 }
+
+
 @media screen and (min-width: 641px) and (max-width: 768px) {
   .listOfSection {
-    width: 50%;
+    width: 75%;
     margin: auto;
-    gap: 1rem;
-    margin-left: 7.8rem;
+    gap: 0.6rem;
   }
   .signImage {
     max-width: 40%;
   }
 }
+
 @media screen and (max-width: 640px) {
   .hamburgerMenuICon {
     display: block;
