@@ -4,7 +4,7 @@ import styles from "./Github.module.css";
 function Github() {
   return (
     <div className={styles.gitContainerMain}>
-      <h1 className={styles.githubHeading}>Github State</h1>
+      <h1 className={styles.githubHeading}>Github Stats</h1>
       <div className={styles.gitCalender}>
         <GitHubCalendar
           className="react-activity-calendar"

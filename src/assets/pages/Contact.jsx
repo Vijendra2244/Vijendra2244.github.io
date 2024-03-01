@@ -3,11 +3,12 @@ import styles from "./Contact.module.css";
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { IoMdMailUnread } from "react-icons/io";
 import { PiPhoneCallFill } from "react-icons/pi";
+import ContactCard from "../../components/ContactCard";
 
 function Contact() {
   return (
     <div id="contact_section">
-      <h1 className={styles.conatactHeading}>Contact me</h1>
+      {/* <h1 className={styles.conatactHeading}>Contact me</h1>
       <div className={styles.detailOfContact}>
         <a
           href="https://www.linkedin.com/in/vijendra-chouhan-989687292/"
@@ -33,7 +34,8 @@ function Contact() {
       <p className={styles.coprRightSection}>
         Designed And Built By <span className={styles.adminName}>Vijendra</span>{" "}
         &copy; 2023
-      </p>
+      </p> */}
+      <ContactCard />
     </div>
   );
 }

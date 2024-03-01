@@ -13,10 +13,11 @@ function Home() {
         </div>
         <div className={styles.detailsContainer}>
           <h1 className={styles.headingName}>
-            <span className={styles.nameOfAdmin}>I'M VIJENDRA CHOUHAN.</span>
+            <span className={styles.nameOfAdmin}> VIJENDRA CHOUHAN.</span>
             <br />
             FULL-STACK DEVELOPER
           </h1>
+          <p className={styles.quote} >Embrace the challenge of mastering every layer, for in the fusion of front and back-end lies the artistry of full-stack development</p>
           <button className={styles.resumeButton}>
             <a
               className={styles.resumeAnchor}

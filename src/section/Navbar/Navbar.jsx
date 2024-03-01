@@ -53,7 +53,7 @@ function Navbar() {
     <>
       <div className={styles.mainOfNavbar}>
         <div>
-          <span className={styles.adminName}>Vijendra</span>
+         <a href="#home_section"><span className={styles.adminName}>Vijendra</span></a>
         </div>
         {isMobileView && (
           <div

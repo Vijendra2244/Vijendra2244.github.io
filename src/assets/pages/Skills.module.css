@@ -1,13 +1,14 @@
-#skills_section{
+#skills_section {
   width: 80%;
   margin: auto;
 }
 
 .skills {
-text-align: center;
+  text-align: center;
   color: #ffb400;
   font-family: "Hedvig Letters Serif", serif;
   font-size: 3rem;
+  padding-top: 1.8rem;
 }
 .skills:hover {
   text-shadow: 2px 2px 8px white;
@@ -103,32 +104,31 @@ text-align: center;
 ​.progressbarThree::before {
   content: "80%";
 }
-.toolsContainer{
+.toolsContainer {
   width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.toolsImages{
+.toolsImages {
   width: 10%;
   border-radius: 100%;
 }
-.imagesTools{
+.imagesTools {
   display: flex;
   gap: 1rem;
   justify-content: center;
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .skillContainer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
   }
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .skillContainer {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
@@ -140,7 +140,6 @@ text-align: center;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
   }
-
 }
 @media screen and (max-width: 640px) {
   .skillContainer {

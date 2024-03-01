@@ -5,6 +5,8 @@
   width: 80%;
   margin: auto;
   font-family: "Hedvig Letters Serif", serif;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
 }
 
 .imageContainer {
@@ -15,6 +17,9 @@
   object-fit: cover;
   border-radius: 1rem;
 }
+.quote {
+  color: white;
+}
 
 .detailsContainer {
   width: 40%;
@@ -24,6 +29,8 @@
 .headingName {
   color: white;
   font-family: "Hedvig Letters Serif", serif;
+  font-size: 2rem;
+  color: #ffb400;
 }
 .nameOfAdmin {
   color: #ffb400;
@@ -183,7 +190,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 40%;
     margin: 1rem auto;
   }
   .detailsContainer {

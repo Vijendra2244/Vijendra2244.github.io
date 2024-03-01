@@ -1,4 +1,4 @@
-#about_section{
+#about_section {
   width: 80%;
   margin: auto;
 }
@@ -28,13 +28,20 @@
   font-family: "Hedvig Letters Serif", serif;
 }
 .paraTag {
-  width: 50%;
+  width: 70%;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .briefSummmmaryAboutMe {
   color: white;
   font-family: "Hedvig Letters Serif", serif;
   text-align: justify;
+}
+
+.systemImage {
+  width: 40%;
 }
 .email {
   color: #ffb400;
@@ -42,13 +49,23 @@
   font-family: "Hedvig Letters Serif", serif;
 }
 
-@media screen and (max-width:420px) {
-  .paraTag{
-    width: 80%;
-    margin:auto;
+@media screen and (max-width: 1024px) {
+  .paraTag {
+    display: flex;
+    flex-direction: column;
   }
-  
-  .aboutHeading{
-    font-size:2.5rem;
+  .systemImage {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .paraTag {
+    width: 80%;
+    margin: auto;
+  }
+
+  .aboutHeading {
+    font-size: 2.5rem;
   }
 }

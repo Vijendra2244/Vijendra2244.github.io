@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
+import about from  "../../assets/system.png"
+
 function About() {
   return (
     <>
@@ -10,14 +12,17 @@ function About() {
         <p className={styles.nameOfAdmin}>I'm Vijendra Chouhan</p>
         <div className={styles.paraTag}>
           <p className={styles.briefSummmmaryAboutMe}>
-            With a keen eye for pixel perfection, I bring websites to life with
-            interactive elegance. My passion lies in the art of blending
-            creativity with functionality, ensuring every user interaction is a
-            seamless and enjoyable experience. Dedicated to crafting digital
-            landscapes that leave a lasting positive impact.
+            As a full stack developer, I immerse myself in the artistry of
+            digital creation, infusing every pixel with precision and every
+            interaction with enchantment. With a relentless pursuit of
+            excellence, I seamlessly blend creativity and functionality,
+            sculpting websites that transcend mere aesthetics to become
+            immersive experiences. Guided by a passion for innovation, I breathe
+            life into digital landscapes that not only captivate but also
+            inspire, leaving an indelible mark on the user's journey.
           </p>
+          <img className={styles.systemImage}  src={about} alt="" />
         </div>
-        <p className={styles.email}>Drop a mail vs230267@gmail.com</p>
       </div>
     </>
   );
