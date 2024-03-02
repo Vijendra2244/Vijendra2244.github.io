@@ -3,10 +3,9 @@
   justify-content: space-around;
   align-items: center;
   width: 80%;
+  height: 90vh;
   margin: auto;
   font-family: "Hedvig Letters Serif", serif;
-  padding-top: 3rem;
-  padding-bottom: 6rem;
 }
 
 .imageContainer {
