@@ -6,7 +6,7 @@ import { FaHome, FaUser } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { GiSkills } from "react-icons/gi";
 import { GoProjectSymlink } from "react-icons/go";
-import resume from "../../assets/Vijendra-Chouhan-Resume.pdf";
+import resume from "../../assets/Vijendra-Chouhan-resume.pdf";
 import { RiBookReadLine } from "react-icons/ri";
 
 function Navbar() {
@@ -53,7 +53,9 @@ function Navbar() {
     <>
       <div className={styles.mainOfNavbar}>
         <div>
-         <a href="#home_section"><span className={styles.adminName}>Vijendra</span></a>
+          <a href="#home_section">
+            <span className={styles.adminName}>Vijendra</span>
+          </a>
         </div>
         {isMobileView && (
           <div
@@ -105,12 +107,12 @@ function Navbar() {
                   href={resume}
                   onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/1xdTafm9KZtA7bFinzz3Avy7OHXf8Fdok/view?usp=sharingg"
+                      "https://drive.google.com/file/d/1QK9srCzGVruHCIDxDuhqKkqeVp9xDSOU/view?usp=sharing"
                     );
                     handleLinkClick();
                   }}
                   target="_blank"
-                  download="Vijendra-Chouhan-Resume"
+                  download
                 >
                   Resume <RiBookReadLine />
                 </a>
