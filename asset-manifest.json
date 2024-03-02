@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.de068597.css",
-    "main.js": "/static/js/main.5b056076.js",
+    "main.js": "/static/js/main.ed172941.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/MovieWebsite.png": "/static/media/MovieWebsite.7c6f5db60083378faefa.png",
-    "static/media/Vijendra-Chouhan-Resume.pdf": "/static/media/Vijendra-Chouhan-Resume.d0f87d8930a1f4c6f674.pdf",
+    "static/media/Vijendra-Chouhan-resume.pdf": "/static/media/Vijendra-Chouhan-resume.9ea79f1a21ed64e2a119.pdf",
     "static/media/ProjectOne.png": "/static/media/ProjectOne.e5ccab7ad67204870fef.png",
     "static/media/VijendraChouhanONe.png": "/static/media/VijendraChouhanONe.3bccb317cd6105b33018.png",
     "static/media/snapdeal.png": "/static/media/snapdeal.a41c2b4f26046f99073b.png",
@@ -12,11 +12,11 @@
     "static/media/system.png": "/static/media/system.dd93b7716fd3d608a36b.png",
     "index.html": "/index.html",
     "main.de068597.css.map": "/static/css/main.de068597.css.map",
-    "main.5b056076.js.map": "/static/js/main.5b056076.js.map",
+    "main.ed172941.js.map": "/static/js/main.ed172941.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de068597.css",
-    "static/js/main.5b056076.js"
+    "static/js/main.ed172941.js"
   ]
 }
