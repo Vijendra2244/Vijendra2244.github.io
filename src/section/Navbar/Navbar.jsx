@@ -107,6 +107,7 @@ function Navbar() {
                   href={resume}
                   onClick={() => {
                     window.open(
+                      
                       "https://drive.google.com/file/d/1QK9srCzGVruHCIDxDuhqKkqeVp9xDSOU/view?usp=sharing"
                     );
                     handleLinkClick();
