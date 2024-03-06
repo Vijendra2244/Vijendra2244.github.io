@@ -9,6 +9,7 @@ function Contact() {
   return (
     <div id="contact_section">
       <ContactCard />
+      <p className={styles.copyRightSection} >© 2023, All right reserved Vijendra Chouhan 💛</p>
     </div>
   );
 }

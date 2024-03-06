@@ -30,7 +30,7 @@
     cursor: pointer;
     color: #fba400;
 }
-.coprRightSection{
+.copyRightSection{
     text-align: center;
     color: white;
     font-family: "Hedvig Letters Serif", serif;
@@ -40,4 +40,10 @@
     color: #fba400;
     font-weight: bold;
     font-size: 1.1rem;
+}
+
+@media screen and (max-width:381px){
+  .copyRightSection{
+    font-size:0.8rem
+  }
 }
