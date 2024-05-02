@@ -13,6 +13,7 @@ import movieWebsite from "../MovieWebsite.png";
 import foodWebsite from "../foodWebsite.png";
 import shine from "../ProjectOne.png";
 import snapdeal from "../snapdeal.png";
+import gemini from "../gemini.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -409,6 +410,105 @@ function Project() {
                 <Button
                   as="a"
                   href="https://github.com/Vijendra2244/DeboubceAndThrottling/tree/main/ThrottlingFoodRecipe"
+                  target="_blank"
+                  _hover={{ cursor: "pointer", backgroundColor: "#fcc700" }}
+                  backgroundColor="#fbb400"
+                  color="black"
+                  fontWeight={500}
+                  width="50%"
+                  fontSize="1rem"
+                >
+                  Github
+                </Button>
+              </Stack>
+            </Stack>
+          </Box>
+        </Center>
+        <Center data-aos="slide-up" py={12}>
+          <Box
+            data-aos="zoom-in"
+            role={"group"}
+            p={6}
+            maxW={"530px"}
+            height="490px"
+            w={"full"}
+            bg={useColorModeValue("white", "gray.800")}
+            boxShadow={"2xl"}
+            rounded={"lg"}
+            pos={"relative"}
+            zIndex={1}
+          >
+            <Box
+              rounded={"lg"}
+              mt={-12}
+              pos={"relative"}
+              height={"230px"}
+              _after={{
+                transition: "all .3s ease",
+                content: '""',
+                w: "full",
+                h: "full",
+                pos: "absolute",
+                top: 5,
+                left: 0,
+                backgroundImage: `url(${gemini})`,
+                filter: "blur(15px)",
+                zIndex: -1,
+              }}
+              _groupHover={{
+                _after: {
+                  filter: "blur(20px)",
+                },
+              }}
+            >
+              <Image
+                rounded={"lg"}
+                height={230}
+                width={282}
+                objectFit={"cover"}
+                src={gemini}
+                alt="#"
+              />
+            </Box>
+            <Stack pt={10} align={"center"}>
+              <Text
+                color={"gray.500"}
+                fontSize={"sm"}
+                textTransform={"uppercase"}
+              >
+                Gemini_Ai
+              </Text>
+              <Text fontSize={"1rem"} fontFamily={"body"} fontWeight={500}>
+                Gemini AI for search revolutionizes browsing with cutting-edge
+                AI, providing intuitive, personalized search experiences akin to
+                GPT's natural language prowess.
+              </Text>
+              <Stack direction={"row"} align={"center"}>
+                <Text fontWeight={500} width="50%" fontSize={"1rem"}>
+                  Tech Stack :
+                </Text>
+                <Text fontSize={"0.8rem"} color={"gray.600"}>
+                  HTML | CSS | JS | React
+                </Text>
+              </Stack>
+              <Stack direction={"row"} align={"center"}>
+                <Button
+                  as="a"
+                  href="https://geminiai0101.netlify.app/"
+                  target="_blank"
+                  _hover={{ cursor: "pointer", backgroundColor: "#fcc700" }}
+                  backgroundColor="#fbb400"
+                  color="black"
+                  fontWeight={500}
+                  width="50%"
+                  fontSize="1rem"
+                >
+                  Live
+                </Button>
+
+                <Button
+                  as="a"
+                  href="https://github.com/Vijendra2244/Rivision_Company_Assignment/tree/main/Gemini"
                   target="_blank"
                   _hover={{ cursor: "pointer", backgroundColor: "#fcc700" }}
                   backgroundColor="#fbb400"

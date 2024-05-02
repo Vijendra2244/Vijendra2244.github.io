@@ -6,7 +6,7 @@ import { FaHome, FaUser } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { GiSkills } from "react-icons/gi";
 import { GoProjectSymlink } from "react-icons/go";
-import resume from "../../assets/Vijendra-Chouhan-resume.pdf";
+import resume from "../../assets/Vijendra-Chouhan-Resume.pdf";
 import { RiBookReadLine } from "react-icons/ri";
 
 function Navbar() {
@@ -107,7 +107,6 @@ function Navbar() {
                   href={resume}
                   onClick={() => {
                     window.open(
-                      
                       "https://drive.google.com/file/d/1QK9srCzGVruHCIDxDuhqKkqeVp9xDSOU/view?usp=sharing"
                     );
                     handleLinkClick();

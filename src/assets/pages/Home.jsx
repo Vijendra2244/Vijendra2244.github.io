@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
-import myResume from "../../assets/Vijendra-Chouhan-resume.pdf";
+import myResume from "../../assets/Vijendra-Chouhan-Resume.pdf";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import AvatarImg from "../../components/card/AvatarImg";

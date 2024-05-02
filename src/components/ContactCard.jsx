@@ -16,40 +16,46 @@ import {
   useClipboard,
   useColorModeValue,
   VStack,
+  useToast,
 } from "@chakra-ui/react";
 import { BsGithub, BsLinkedin, BsPerson, BsPhone } from "react-icons/bs";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
 import emailjs from "emailjs-com";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 export default function ContactCard() {
-    const [formData, setFormData] = useState({
-      name: "",
-      email: "",
-      message: "",
-    });
+  const form = useRef();
+  const toast = useToast();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_v88ocap",
+        "template_xke35vg",
+        form.current,
+        "8jNhjSEZV4fk9fU6c"
+      )
+      .then(
+        (result) => {
+          toast({
+            title: "Email sent",
+            description: "Email sent succeefully!",
+            status: "success",
+            duration: 4000,
+            isClosable: true,
+          });
+          e.target.reset();
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   const { hasCopied: hasCopiedEmail, onCopy: onCopyEmail } =
     useClipboard("vs230267@gmail.com");
   const { hasCopied: hasCopiedNum, onCopy: onCopyNum } =
     useClipboard("9009060724");
-
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm("service_v88ocap", "template_xke35vg", e.target).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-  };
 
   return (
     <Flex
@@ -108,7 +114,11 @@ export default function ContactCard() {
                   />
                 </Tooltip>
 
-                <Box as="a" href="https://github.com/Vijendra2244" target="_blank">
+                <Box
+                  as="a"
+                  href="https://github.com/Vijendra2244"
+                  target="_blank"
+                >
                   <IconButton
                     aria-label="github"
                     variant="ghost"
@@ -165,70 +175,75 @@ export default function ContactCard() {
                 p={8}
                 color={useColorModeValue("gray.700", "whiteAlpha.900")}
                 shadow="base"
-                onSubmit={handleSubmit}
               >
-            
-                <VStack spacing={5}>
-                  <FormControl isRequired>
-                    <FormLabel>Name</FormLabel>
-
-                    <InputGroup>
-                      <InputLeftElement>
-                        <BsPerson />
-                      </InputLeftElement>
-                      <Input
-                        onChange={handleChange}
-                        value={formData.name}
-                        type="text"
-                        name="name"
-                        placeholder="Your Name"
-                      />
-                    </InputGroup>
-                  </FormControl>
-
-                  <FormControl isRequired>
-                    <FormLabel>Email</FormLabel>
-
-                    <InputGroup>
-                      <InputLeftElement>
-                        <MdOutlineEmail />
-                      </InputLeftElement>
-                      <Input
-                        type="email"
-                        name="email"
-                        placeholder="Your Email"
-                        onChange={handleChange}
-                        value={formData.email}
-                      />
-                    </InputGroup>
-                  </FormControl>
-
-                  <FormControl isRequired>
-                    <FormLabel>Message</FormLabel>
-
-                    <Textarea
-                      name="message"
-                      placeholder="Your Message"
-                      rows={6}
-                      resize="none"
-                      onChange={handleChange}
-                      value={formData.message}
+                <form
+                  className="form"
+                  ref={form}
+                  onSubmit={sendEmail}
+                  style={{
+                    display: "flex",
+                    gap: "1rem",
+                    flexDirection: "column",
+                  }}
+                >
+                  <Box display={"flex"} flexDirection={"column"}>
+                    <label>Name*</label>
+                    <input
+                      style={{
+                        border: "1px solid grey",
+                        borderRadius: "6px",
+                        padding: "3px",
+                        outline: "none",
+                      }}
+                      placeholder="Your Name"
+                      type="text"
+                      name="userName"
+                      required
                     />
-                  </FormControl>
-
-                  <Button
-                    colorScheme="yellow"
-                    bg=" #ffb400;"
-                    color="white"
-                    _hover={{
-                      bg: " #fcc700;",
+                  </Box>
+                  <Box display={"flex"} flexDirection={"column"}>
+                    <label>Email*</label>
+                    <input
+                      style={{
+                        border: "1px solid grey",
+                        borderRadius: "6px",
+                        padding: "3px",
+                        outline: "none",
+                      }}
+                      placeholder="Your Email"
+                      type="email"
+                      name="userEmail"
+                      required
+                    />
+                  </Box>
+                  <Box display={"flex"} flexDirection={"column"}>
+                    <label>Message*</label>
+                    <textarea
+                      style={{
+                        border: "1px solid grey",
+                        borderRadius: "6px",
+                        padding: "3px",
+                        outline: "none",
+                        resize: "none",
+                      }}
+                      name="message"
+                      required
+                    />
+                  </Box>
+                  <input
+                    style={{
+                      width: "100%",
+                      backgroundColor: "#fbb400",
+                      cursor: "pointer",
+                      borderRadius: "10px",
+                      padding: "2px",
+                      color: "white",
                     }}
-                    width="full"
+                    className="submit"
                     type="submit"
-                  >
-                    Send Message
-                  </Button>
-                </VStack>
+                    value="Send"
+                  />
+                </form>
               </Box>
             </Stack>
           </VStack>
