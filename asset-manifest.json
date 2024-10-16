@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.70491e39.css",
-    "main.js": "/static/js/main.71684397.js",
+    "main.css": "/static/css/main.d3dfbb77.css",
+    "main.js": "/static/js/main.03740a63.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/MovieWebsite.png": "/static/media/MovieWebsite.7c6f5db60083378faefa.png",
-    "static/media/Vijendra-Chouhan-Resume.pdf": "/static/media/Vijendra-Chouhan-Resume.9ea79f1a21ed64e2a119.pdf",
+    "static/media/VijendraChouhan-FullStackWebDeveloper-ZWDX.pdf": "/static/media/VijendraChouhan-FullStackWebDeveloper-ZWDX.6f05a5ca2343360ec0f5.pdf",
     "static/media/ProjectOne.png": "/static/media/ProjectOne.e5ccab7ad67204870fef.png",
     "static/media/VijendraChouhanONe.png": "/static/media/VijendraChouhanONe.3bccb317cd6105b33018.png",
     "static/media/snapdeal.png": "/static/media/snapdeal.a41c2b4f26046f99073b.png",
     "static/media/foodWebsite.png": "/static/media/foodWebsite.40694fdf6f9c6d92d2b7.png",
     "static/media/gemini.png": "/static/media/gemini.4b3bc3e7d0a691e29a10.png",
     "static/media/system.png": "/static/media/system.dd93b7716fd3d608a36b.png",
+    "static/media/dsevSync.png": "/static/media/dsevSync.6fc2250664d3223c1ec5.png",
+    "static/media/header-logo.png": "/static/media/header-logo.fbd00df5d09cb324b639.png",
     "index.html": "/index.html",
-    "main.70491e39.css.map": "/static/css/main.70491e39.css.map",
-    "main.71684397.js.map": "/static/js/main.71684397.js.map",
+    "main.d3dfbb77.css.map": "/static/css/main.d3dfbb77.css.map",
+    "main.03740a63.js.map": "/static/js/main.03740a63.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70491e39.css",
-    "static/js/main.71684397.js"
+    "static/css/main.d3dfbb77.css",
+    "static/js/main.03740a63.js"
   ]
 }
