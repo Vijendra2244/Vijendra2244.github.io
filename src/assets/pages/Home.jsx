@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
-import myResume from "../../assets/Vijendra-Chouhan-Resume.pdf";
+import myResume from "../../assets/VijendraChouhan-FullStackWebDeveloper-ZWDX.pdf";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import AvatarImg from "../../components/card/AvatarImg";
@@ -24,7 +24,7 @@ function Home() {
               href={myResume}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1QK9srCzGVruHCIDxDuhqKkqeVp9xDSOU/view?usp=sharing"
+                  "https://drive.google.com/file/d/1m9F6TQWQiImUCTFkAemYNXZZa4rCiZrs/view?usp=sharing"
                 );
               }}
               target="_blank"

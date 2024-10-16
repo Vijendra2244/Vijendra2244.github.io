@@ -6,8 +6,9 @@ import { FaHome, FaUser } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { GiSkills } from "react-icons/gi";
 import { GoProjectSymlink } from "react-icons/go";
-import resume from "../../assets/Vijendra-Chouhan-Resume.pdf";
+import resume from "../../assets/VijendraChouhan-FullStackWebDeveloper-ZWDX.pdf";
 import { RiBookReadLine } from "react-icons/ri";
+import { GrUserExpert } from "react-icons/gr";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -97,6 +98,13 @@ function Navbar() {
                 </a>
                 <a
                   className={styles.listSectionNavbar}
+                  href="#ex_section"
+                  onClick={handleLinkClick}
+                >
+                  Experience <GrUserExpert />
+                </a>
+                <a
+                  className={styles.listSectionNavbar}
                   href="#contact_section"
                   onClick={handleLinkClick}
                 >
@@ -107,7 +115,7 @@ function Navbar() {
                   href={resume}
                   onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/1QK9srCzGVruHCIDxDuhqKkqeVp9xDSOU/view?usp=sharing"
+                      "https://drive.google.com/file/d/1m9F6TQWQiImUCTFkAemYNXZZa4rCiZrs/view?usp=sharing"
                     );
                     handleLinkClick();
                   }}
@@ -160,6 +168,13 @@ function Navbar() {
             </a>
             <a
               className={styles.listSectionNavbar}
+              href="#ex_section"
+              onClick={handleLinkClick}
+            >
+              Experience <GrUserExpert />
+            </a>
+            <a
+              className={styles.listSectionNavbar}
               href="#contact_section"
               onClick={handleLinkClick}
             >
@@ -170,7 +185,7 @@ function Navbar() {
               href={resume}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1xdTafm9KZtA7bFinzz3Avy7OHXf8Fdok/view?usp=sharingg"
+                  "https://drive.google.com/file/d/1m9F6TQWQiImUCTFkAemYNXZZa4rCiZrs/view?usp=sharing"
                 );
                 handleLinkClick();
               }}

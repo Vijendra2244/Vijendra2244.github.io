@@ -6,6 +6,7 @@ import Project from "./assets/pages/Project";
 import Navbar from "./section/Navbar/Navbar";
 import Github from "./assets/pages/Github";
 import AnimatedCursorComponent from "./components/card/AnimatedCursorComponent";
+import Experience from "./assets/pages/Experiance";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Project />
+      <Experience/>
       <Github />
       <Contact />
       <AnimatedCursorComponent/>
