@@ -6,7 +6,7 @@ import { FaHome, FaUser } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 import { GiSkills } from "react-icons/gi";
 import { GoProjectSymlink } from "react-icons/go";
-import resume from "../../assets/VijendraChouhan-FullStackWebDeveloper-ZWDX.pdf";
+import resume from "../../assets/VijendraChouhan-FullStackWebDeveloper-ImIe.pdf";
 import { RiBookReadLine } from "react-icons/ri";
 import { GrUserExpert } from "react-icons/gr";
 
@@ -115,7 +115,7 @@ function Navbar() {
                   href={resume}
                   onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/1m9F6TQWQiImUCTFkAemYNXZZa4rCiZrs/view?usp=sharing"
+                      "https://drive.google.com/file/d/1w24Sj8knUetHs9tNKmfRdG-LT7xod2H1/view?usp=sharing"
                     );
                     handleLinkClick();
                   }}
@@ -185,7 +185,7 @@ function Navbar() {
               href={resume}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1m9F6TQWQiImUCTFkAemYNXZZa4rCiZrs/view?usp=sharing"
+                  "https://drive.google.com/file/d/1w24Sj8knUetHs9tNKmfRdG-LT7xod2H1/view?usp=sharing"
                 );
                 handleLinkClick();
               }}

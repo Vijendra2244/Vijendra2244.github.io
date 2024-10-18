@@ -86,7 +86,7 @@ function Project() {
               >
                 DevSync
               </Text>
-              <Text fontSize={"1rem"} fontFamily={"body"} fontWeight={500}>
+              <Text fontSize={"1rem"}  textAlign={"left"} fontFamily={"body"} fontWeight={500}>
               DevSync is a code editor built using the MERN stack (MongoDB, Express, React, Node.js) with Tailwind CSS for styling. Developed by a two-member team.
               </Text>
               <Stack direction={"row"} align={"center"}>
@@ -183,10 +183,11 @@ function Project() {
               >
                 snapdeal.com
               </Text>
-              <Text fontSize={"1rem"} fontFamily={"body"} fontWeight={500}>
-                Implemented features including slider functionality, product
-                browsing, cart management, and seamless payment integration
-                using Razorpay.
+              <Text fontSize={"1rem"}  textAlign={"left"} fontFamily={"body"} fontWeight={500}>
+              Added features like slider, product browsing, cart handling, and smooth Razorpay payment integration.
+              <span style={
+                  {visibility:"hidden"}
+                }> helps users find the best job opportunities.</span>    
               </Text>
               <Stack direction={"row"} align={"center"}>
                 <Text fontWeight={500} width="50%" fontSize={"1rem"}>
@@ -282,9 +283,11 @@ function Project() {
               >
                 shine.com
               </Text>
-              <Text fontSize={"1rem"} fontFamily={"body"} fontWeight={500}>
+              <Text fontSize={"1rem"}  textAlign={"left"} fontFamily={"body"} fontWeight={500}>
                 Developed an online job application platform that facilitates
-                job browsing and helps users find the best job opportunities.
+                job browsing and helps users find the best job opportunities.<span style={
+                  {visibility:"hidden"}
+                }> helps users find the best job opportunities.</span>    
               </Text>
               <Stack direction={"row"} align={"center"}>
                 <Text fontWeight={500} width="50%" fontSize={"1rem"}>
@@ -380,9 +383,11 @@ function Project() {
               >
                 Movie.com
               </Text>
-              <Text fontSize={"1rem"} fontFamily={"body"} fontWeight={500}>
+              <Text fontSize={"1rem"}  textAlign={"left"} fontFamily={"body"} fontWeight={500}>
                 Developed a movie and series search website with a focus on
-                efficient searching using debouncing.Where user find all movies.
+                efficient searching using debouncing.Where user find all movies.<span style={
+                  {visibility:"hidden"}
+                }> helps users find the best job opportunities.</span>    
               </Text>
               <Stack direction={"row"} align={"center"}>
                 <Text fontWeight={500} width="50%" fontSize={"1rem"}>
@@ -477,16 +482,18 @@ function Project() {
               >
                 Foodie.com
               </Text>
-              <Text fontSize={"1rem"} fontFamily={"body"} fontWeight={500}>
+              <Text fontSize={"1rem"} textAlign={"left"} fontFamily={"body"} fontWeight={500}>
                 Created a food website that allows users to search for various
                 recipes.And also find the full recipes of specific food and
-                make.
+                make.<span style={
+                  {visibility:"hidden"}
+                }> helps users find the best job opportunities.</span>    
               </Text>
               <Stack direction={"row"} align={"center"}>
                 <Text fontWeight={500} width="50%" fontSize={"1rem"}>
                   Tech Stack :
                 </Text>
-                <Text fontSize={"0.8rem"} color={"gray.600"}>
+                <Text fontSize={"0.8rem"}  color={"gray.600"}>
                   HTML | CSS | JS
                 </Text>
               </Stack>
@@ -576,7 +583,7 @@ function Project() {
               >
                 Gemini_Ai
               </Text>
-              <Text fontSize={"1rem"} fontFamily={"body"} fontWeight={500}>
+              <Text fontSize={"1rem"}  textAlign={"left"} fontFamily={"body"} fontWeight={500}>
                 Gemini AI for search revolutionizes browsing with cutting-edge
                 AI, providing intuitive, personalized search experiences akin to
                 GPT's natural language prowess.

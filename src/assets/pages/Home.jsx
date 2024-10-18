@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
-import myResume from "../../assets/VijendraChouhan-FullStackWebDeveloper-ZWDX.pdf";
+import myResume from "../../assets/VijendraChouhan-FullStackWebDeveloper-ImIe.pdf";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import AvatarImg from "../../components/card/AvatarImg";
@@ -17,14 +17,17 @@ function Home() {
             <br />
             FULL-STACK DEVELOPER
           </h1>
-          <p className={styles.quote} >Embrace the challenge of mastering every layer, for in the fusion of front and back-end lies the artistry of full-stack development</p>
+          <p className={styles.quote}>
+            Embrace the challenge of mastering every layer, for in the fusion of
+            front and back-end lies the artistry of full-stack development
+          </p>
           <button className={styles.resumeButton}>
             <a
               className={styles.resumeAnchor}
               href={myResume}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1m9F6TQWQiImUCTFkAemYNXZZa4rCiZrs/view?usp=sharing"
+                  "https://drive.google.com/file/d/1w24Sj8knUetHs9tNKmfRdG-LT7xod2H1/view?usp=sharing"
                 );
               }}
               target="_blank"

@@ -102,7 +102,7 @@ export default function ContactCard() {
                 >
                   <IconButton
                     aria-label="email"
-                    variant="ghost"
+                    // variant="ghost"
                     size="lg"
                     fontSize="3xl"
                     icon={<MdEmail />}
@@ -121,7 +121,7 @@ export default function ContactCard() {
                 >
                   <IconButton
                     aria-label="github"
-                    variant="ghost"
+                    // variant="ghost"
                     size="lg"
                     fontSize="3xl"
                     icon={<BsGithub />}
@@ -139,7 +139,7 @@ export default function ContactCard() {
                 >
                   <IconButton
                     aria-label="number"
-                    variant="ghost"
+                    // variant="ghost"
                     size="lg"
                     fontSize="3xl"
                     icon={<BsPhone />}
@@ -158,7 +158,7 @@ export default function ContactCard() {
                 >
                   <IconButton
                     aria-label="linkedin"
-                    variant="ghost"
+                    // variant="ghost"
                     size="lg"
                     icon={<BsLinkedin size="28px" />}
                     _hover={{
