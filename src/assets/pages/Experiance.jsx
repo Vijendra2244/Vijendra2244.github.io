@@ -27,7 +27,6 @@ const Experience = () => {
         "TailwindCSS",
         "NodeJS",
         "ExpressJS",
-        "React-Native",
         "Git",
         "REST APIs",
         "TypeScript",
